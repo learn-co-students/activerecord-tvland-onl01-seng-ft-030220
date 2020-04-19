@@ -14,7 +14,7 @@ network, and character model. They will be associated in the following way:
 - A character belongs to an actor and belongs to a show.
 - A show has many characters and has many actors through characters.
 
-We've given you a few migrations in the `db/migrate` directory to create the
+We've given you a few migrations in the `db/migrate` directory to create the#
 networks and shows table, but you'll have to add additional tables and modify
 these existing tables as per the guidelines below.
 
@@ -48,7 +48,7 @@ or a model configured.
   should have many characters and many shows through characters.
 - Write a method in the `Actor` class, `#full_name`, that returns the first and
   last name of an actor.
-- Write a method in the `Actor` class, `#list_roles`, that lists all of the
+- Write a method in the `Actor` class, `#list_roles`, that lists  all of the
   characters that actor has alongside the show that the character is in. So, for
   instance, if we had an actor, Peter Dinklage, a character, Tyrion Lannister,
   and a show, Game of Thrones, we with
