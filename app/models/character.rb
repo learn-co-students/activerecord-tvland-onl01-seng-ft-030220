@@ -1,7 +1,8 @@
 class Character < ActiveRecord::Base
-    belongs_to :show, :actor
+    belongs_to :show
+    belongs_to :actor
 
-    def self.say_that_thing_you_say
-        "#{name} always says: #{catchphrase}"
+    def say_that_thing_you_say
+        "#{self.name} always says: #{self.catchphrase}"
     end
 end
